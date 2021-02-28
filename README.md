@@ -48,6 +48,18 @@ manager, or their respective websites:
   between
 - Fill in the other parameters and tick the "Active" checkbox
 
+## [toggle-visibility-all-scenes.py](./toggle-visibility-all-scenes.py)
+### What does it do?
+If you have a source present in multiple scenes, toggling its visibility
+(hiding/showing it by clicking the eye icon) in one scene will apply the change
+in all the other scenes that contain that source as well.
+
+### Prerequisites
+OBS and Python, check the prerequisites section for the script above if you need help.
+
+### How to use
+Download [the script](./toggle-visibility-all-scenes.py), start OBS and go to
+Tools > Scripts, "+" button to add the script, tick the box.
 
 ## License
 
