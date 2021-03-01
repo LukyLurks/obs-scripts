@@ -35,6 +35,10 @@ def script_update(settings):
                 on_visibility_toggle
                 )
         visibility_handler = None
+    obs.remove_current_callback()
+
+def script_load(settings):
+    obs.timer_add(lambda: script_update(settings), 5000)
 
 def script_properties():
     props = obs.obs_properties_create()
